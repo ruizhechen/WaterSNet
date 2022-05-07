@@ -1,0 +1,22 @@
+Test:
+  batch_size: 1
+  ckpt: ../checkpoints/pretrained_model.pth
+  device: cuda:0
+  test_image_dir: MAS3K/test/Image/ # your test image dir
+  test_mask_dir: MAS3K/test/Mask/   # your test mask dir
+  test_size: 352
+  testset_name: MAS3K-Test
+Train:
+  batch_size: 16
+  current_epoch: 0
+  device: cuda:0
+  epoch_num: 300
+  net: WaterSNet
+  optimizer_lr: 0.0001
+  tra_image_dir: MAS3K/train/Image/ # your train image dir
+  tra_lbl_dir: MAS3K/train/Mask/    # your train mask dir
+  train_num: 0
+  train_resume: false
+  train_size: 352
+  val_num: 0
+exp_name: exp
