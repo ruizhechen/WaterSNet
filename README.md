@@ -16,7 +16,7 @@ run ```python train.py``` to train the model.
 
 run ```python test.py``` to obtain the testing results of the model as well as evaluation metrics.
 
-Our pre-trained model: [[Pre-trained Model]()]
+Our pre-trained model: [[Pre-trained Model](https://github.com/ruizhechen/WaterSNet/releases/download/Pre-trained/pretrained_model.pth)]
 
 #### Correction of a formula error in the paper:
 
