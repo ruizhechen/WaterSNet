@@ -12,7 +12,7 @@ The code is in the ```scripts``` directory.
 
 run ```python train.py``` to train the model.
 
-##### test:
+##### Test:
 
 run ```python test.py``` to obtain the testing results of the model as well as evaluation metrics.
 
